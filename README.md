@@ -2,7 +2,7 @@
 
 ### [Ben Marley](https://benmarleydesign.ca) .ca
 
-Ben Marley achieves his designs through an alaytical and unique perspective of the world. Through illustration and other design skills, he translates ideas into images and design.
+Ben Marley achieves his designs through an analytical and unique perspective of the world. Through illustration and other design skills, he translates ideas into images and design.
 
 ![ben work graphic](images/ben-work-graphic.png)
 

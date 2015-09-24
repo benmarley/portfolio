@@ -6,6 +6,8 @@ Ben Marley achieves his designs through an alaytical and unique perspective of t
 
 ![ben work graphic](images/ben-work-graphic.png)
 
+---
+
 [behance](https://www.behance.net/benmarley)
 [Linked in](https://ca.linkedin.com/pub/ben-marley/b1/b22/4a1)
 [github](https://github.com/benmarley)

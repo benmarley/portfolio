@@ -28,6 +28,7 @@ img {
 
 .banner {
 	position: relative;
+	overflow: hidden;
 }
 
 .banner-heading {
@@ -40,23 +41,60 @@ img {
 }
 
 .holder {
-	width: 14.28%;
+	width: 10%;
 	float: left;
-	background: url("http://placehold.it/200x1000");
+	background-position: center;
 	background-size: 100%;
-	min-height:800px;
+	min-height:700px;
+	white-space: no-wrap;
+	transform-origin: center center;
+	filter: blur(40px);
 }
 
 
 
 .image-container {
-	max-width:50em;
+	width: 100%;
 	margin: 0 auto;
-	clear: right;
+	white-space: no-wrap;
+	text-align: center;
+	margin-top:20em;
+
+	
+}
+
+.holder:hover {
+	width: 40%;
+	filter: none;
+	-webkit-transition: 300ms linear;
+	transition: 300ms linear;
 }
 
 .section-3-info {
 	display: block;
-	flex-flow:none;
+	flex-flow:none; 
 
+}
+
+.hold-img-1{
+	background: url("http://placehold.it/200x1000/666666");
+}
+.hold-img-2{
+	background: url("http://placehold.it/200x1000/333333");
+
+}
+.hold-img-3{
+	background: url("http://placehold.it/200x1000/777777");
+}
+.hold-img-4{
+	background: url("http://placehold.it/200x1000/111111");
+}
+.hold-img-5{
+	background: url("http://placehold.it/200x1000/CCCCCC");
+}
+.hold-img-6{
+	background: url("http://placehold.it/200x1000/555555");
+}
+.hold-img-7{
+	background: url("http://placehold.it/200x1000/222222");
 }

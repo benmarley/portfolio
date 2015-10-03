@@ -19,6 +19,7 @@ html {
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 img {
@@ -36,65 +37,53 @@ img {
 	left:50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
-
-
 }
 
-.holder {
-	width: 10%;
-	float: left;
-	background-position: center;
-	background-size: 100%;
-	min-height:700px;
-	white-space: no-wrap;
-	transform-origin: center center;
-	filter: blur(40px);
+.container {
+	width: 6%;
+	height: 400px;
+	display: inline-block;
+	/*float: left;*/
+	margin-right: 0;
+	transition: all 700ms linear;
 }
 
-
-
-.image-container {
-	width: 100%;
-	margin: 0 auto;
-	white-space: no-wrap;
+.expanding-divs {
 	text-align: center;
-	margin-top:20em;
+}
 
+.container:hover {
+	width: 20%;
+	-webkit-transition: all 700ms alternate;
+	transition: all 700ms alternate;
+}
+.bg-1 {
+ background: url("http://placehold.it/300x1200/666666");
+ 
+}
+
+
+.bg-2 {
+ background: url("http://placehold.it/300x1000/666666");
+
+}
+
+.bg-3 {
 	
+ background: url("http://placehold.it/300x1000/666666");
 }
 
-.holder:hover {
-	width: 40%;
-	filter: none;
-	-webkit-transition: 300ms linear;
-	transition: 300ms linear;
+.bg-4 {
+	
+ background: url("http://placehold.it/300x1000/666666");
 }
 
-.section-3-info {
-	display: block;
-	flex-flow:none; 
-
+.bg-5 {
+	
+ background: url("http://placehold.it/300x1000/666666");
 }
 
-.hold-img-1{
-	background: url("http://placehold.it/200x1000/666666");
-}
-.hold-img-2{
-	background: url("http://placehold.it/200x1000/333333");
-
-}
-.hold-img-3{
-	background: url("http://placehold.it/200x1000/777777");
-}
-.hold-img-4{
-	background: url("http://placehold.it/200x1000/111111");
-}
-.hold-img-5{
-	background: url("http://placehold.it/200x1000/CCCCCC");
-}
-.hold-img-6{
-	background: url("http://placehold.it/200x1000/555555");
-}
-.hold-img-7{
-	background: url("http://placehold.it/200x1000/222222");
+.bg-6 {
+	
+ background: url("http://placehold.it/300x1000/666666");
 }

@@ -28,8 +28,17 @@ img {
 }
 
 .banner {
-	position: relative;
 	overflow: hidden;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	margin-bottom:10em;
+
+}
+
+.banner img {
+	display: block;
 }
 
 .banner-heading {
@@ -37,7 +46,69 @@ img {
 	left:50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
+
+
 }
+
+.section-1-aboutme{
+	margin-bottom: 10em;
+
+}
+
+/*.tab {
+	width: 150px;
+	height: 400px;
+	display: inline-block;
+	position: relative;
+	top: 20%;
+	background-color: red;
+	-webkit-transition: all 500ms linear;
+	transition: all 500ms linear;
+}
+
+.tab:hover {
+	top: -300px;
+	
+	-webkit-transition: all 500ms linear;
+	transition: all 500ms linear;
+}
+
+.banner-tabs {
+	position: absolute;
+	top: 43%;
+	width: 100%;
+	margin-left:50%;
+	transform: translateX(-50%);
+	-webkit-transition: all 500ms linear;
+	transition: all 500ms linear;
+
+}*/
+
+.tab {
+	width: 20%;
+	height: 700px;
+	position: absolute;
+	top: 90%;
+	background-color: blue;
+	transition: all 500ms linear;
+}
+
+.tab:hover {
+	top:40%;
+	transition: all 500ms linear;
+}
+
+.tab-1{
+left: 8%;
+}
+
+.tab-2{
+	left:39%;
+}
+.tab-3{
+	left: 69%;
+}
+
 
 .container {
 	width: 6%;
@@ -45,45 +116,66 @@ img {
 	display: inline-block;
 	/*float: left;*/
 	margin-right: 0;
-	transition: all 700ms linear;
+	transition: all 400ms linear;
+	padding: 0;
+	margin: 0;	
 }
 
 .expanding-divs {
 	text-align: center;
+	margin-bottom: 10em;
+
 }
 
 .container:hover {
-	width: 20%;
-	-webkit-transition: all 700ms alternate;
-	transition: all 700ms alternate;
+	width: 30%;
+	-webkit-transition: all 100ms alternate;
+	transition: all 100ms alternate;
 }
 .bg-1 {
  background: url("http://placehold.it/300x1200/666666");
- 
 }
 
 
 .bg-2 {
  background: url("http://placehold.it/300x1000/666666");
-
 }
 
 .bg-3 {
-	
  background: url("http://placehold.it/300x1000/666666");
 }
 
 .bg-4 {
-	
  background: url("http://placehold.it/300x1000/666666");
 }
 
 .bg-5 {
-	
  background: url("http://placehold.it/300x1000/666666");
 }
 
 .bg-6 {
-	
  background: url("http://placehold.it/300x1000/666666");
+}
+
+.expanding-divs {
+		display: none;
+}
+
+.center-tabs a {
+	color:black;	
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+	.expanding-divs {
+		display: block;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+
 }

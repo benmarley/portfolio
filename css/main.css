@@ -50,6 +50,15 @@ img {
 
 }
 
+.navigation-list {
+	width: 100%;
+	text-align: center;
+
+}
+.navigation-list li {
+	display: inline-block;
+}
+
 .section-1-aboutme{
 	
 
@@ -196,7 +205,7 @@ overflow: hidden;
 
 .pop-info {
 	position: absolute;
-	bottom: -6%;
+	bottom: -3%;
 	height: 1%;
 	width: 100%;
 	background-color: rgba(0,0,0, 0.2);
@@ -221,6 +230,10 @@ overflow: hidden;
 	color: black;
 }
 
+.small-none-nav {
+	display: none;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -231,8 +244,21 @@ overflow: hidden;
 		display: block;
 	}
 
+	.small-none-nav {
+		display: block;
+	}
+
+	.navigation-list {
+		display: none;
+	}
+
 }
 
 @media only screen and (min-width: 60em) {
+
+		.pop-info {
+		bottom:-6%;
+	}
+
 
 }

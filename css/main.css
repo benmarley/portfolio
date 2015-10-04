@@ -119,6 +119,7 @@ left: 8%;
  background: url("http://placehold.it/600x1200/666666");
  background-repeat: no-repeat;
  position: relative;
+ overflow: hidden;
 }
 
 
@@ -126,42 +127,49 @@ left: 8%;
  background: url("http://placehold.it/600x1000/666666");
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
 }
 
 .bg-3 {
  background: url("http://placehold.it/600x1000/666666");
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
 }
 
 .bg-4 {
  background: url("http://placehold.it/600x1000/666666");
  background-repeat: no-repeat;
  position: relative;
+ overflow: hidden;
 }
 
 .bg-5 {
  background: url("http://placehold.it/600x1000/666666");
  background-repeat: no-repeat;
  position: relative;
+ overflow: hidden;
 }
 
 .bg-6 {
  background: url("http://placehold.it/600x1000/666666");
  background-repeat: no-repeat;
 position: relative;
+overflow: hidden;
 }
 
 .bg-7 {
 background: url("http://placehold.it/600x1000/666666");
 background-repeat: no-repeat;
 position: relative;
+overflow: hidden;
 }
 
 .bg-8 {
  background: url("http://placehold.it/600x1000/666666");
  background-repeat: no-repeat;
  position: relative;
+ overflow: hidden;
 }
 
 .expanding-divs {
@@ -179,24 +187,40 @@ position: relative;
 }
 
 .middle-banner {
-	margin-bottom: 10em;
+	margin-top: 10em;
 }
 
-
+.middle-banner img {
+	display: block;
+}
 
 .pop-info {
 	position: absolute;
-	bottom: 0%;
+	bottom: -6%;
 	height: 1%;
 	width: 100%;
 	background-color: rgba(0,0,0, 0.2);
 	padding-top: 45%;
+	overflow: hidden;
 }
 
 .pop-info:hover {
 	height: 20%;
 	
 }
+
+.expand-text-1{
+	position: absolute;
+	top: -70%;
+	left: 0%;
+	margin: 0;	
+	padding-top: 50%;
+}
+
+.expanding-divs a {
+	color: black;
+}
+
 
 @media only screen and (min-width: 25em) {
 

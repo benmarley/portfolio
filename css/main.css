@@ -32,7 +32,7 @@ img {
 	position: relative;
 	margin: 0;
 	padding: 0;
-	margin-bottom:10em;
+	
 
 }
 
@@ -57,10 +57,34 @@ img {
 }
 .navigation-list li {
 	display: inline-block;
+
+
 }
 
-.section-1-aboutme{
-	
+.navigation-list a {
+	background-color: #6B6B6B;
+	text-decoration: none;
+	color: black;
+	padding-top: .5em;
+	padding-bottom: .5em;
+
+}
+
+.border-nav{
+	border-left: solid;
+	border-right: solid;
+}
+
+.section-1-aboutme {
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+.section-1-aboutme img{
+	display: block;
+}
+
+.social-media {
 
 }
 
@@ -74,16 +98,18 @@ img {
 	position: absolute;
 	top: 90%;
 	background-color: #464646;
+	-webkit-transition: all 500ms linear;
 	transition: all 500ms linear;
 }
 
 .tab:hover {
 	top:40%;
+	-webkit-transition: all 500ms linear;
 	transition: all 500ms linear;
 }
 
 .tab-1{
-left: 8%;
+	left: 8%;
 }
 
 .tab-2{
@@ -100,6 +126,7 @@ left: 8%;
 	display: inline-block;
 	/*float: left;*/
 	margin-right: 0;
+	-webkit-transition: all 400ms linear;
 	transition: all 400ms linear;
 	padding: 0;
 	margin: 0;	
@@ -107,7 +134,7 @@ left: 8%;
 
 .expanding-divs {
 	text-align: center;
-	margin-bottom: 10em;
+	
 	overflow: hidden;
 	padding-top: 10em;
 	padding-bottom: 10em;
@@ -196,7 +223,7 @@ overflow: hidden;
 }
 
 .middle-banner {
-	margin-top: 10em;
+	
 }
 
 .middle-banner img {
@@ -205,10 +232,10 @@ overflow: hidden;
 
 .pop-info {
 	position: absolute;
-	bottom: -3%;
+	bottom: -6%;
 	height: 1%;
 	width: 100%;
-	background-color: rgba(0,0,0, 0.2);
+	background-color: rgba(0,0,0, 0.1);
 	padding-top: 45%;
 	overflow: hidden;
 }
@@ -220,10 +247,10 @@ overflow: hidden;
 
 .expand-text-1{
 	position: absolute;
-	top: -70%;
+	top: 0%;
 	left: 0%;
 	margin: 0;	
-	padding-top: 50%;
+	
 }
 
 .expanding-divs a {
@@ -257,8 +284,20 @@ overflow: hidden;
 @media only screen and (min-width: 60em) {
 
 		.pop-info {
-		bottom:-6%;
+		bottom:-9%;
 	}
+}
 
+@media only screen and (min-width: 90em) {
 
+		.pop-info {
+		bottom:-12%;
+	}
+}
+
+@media only screen and (min-width: 100em) {
+
+		.pop-info {
+		bottom:-15%;
+	}
 }

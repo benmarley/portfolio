@@ -61,6 +61,37 @@ img {
 
 }
 
+.gd-graphic {
+	width: 50%;
+	background-color: #ccc;
+	margin: 0 auto;
+	padding-top: 5em;
+	position: relative;
+	top: 2%;
+
+}
+
+
+.motion-graphic {
+	width: 50%;
+	background-color: #ccc;
+	margin: 0 auto;
+	padding-top: 5em;
+	position: relative;
+	top: 5%;
+
+}
+
+.illustration-graphic {
+	width: 50%;
+	background-color: #ccc;
+	margin: 0 auto;
+	padding-top: 5em;
+	position: relative;
+	top: 5%;
+
+}
+
 .navigation-list a {
 	background-color: #6B6B6B;
 	text-decoration: none;
@@ -78,6 +109,7 @@ img {
 .section-1-aboutme {
 	padding-top: 10em;
 	padding-bottom: 10em;
+	background-color: #B1B1B1;
 }
 
 .section-1-aboutme img{
@@ -90,9 +122,14 @@ img {
 
 .section-3 {
 	display: block;
+	padding-top:5em;
+	padding-bottom: 5em;
 
 }
 .tab {
+
+	border-radius: 20px;
+
 	width: 20%;
 	height: 700px;
 	position: absolute;
@@ -286,12 +323,22 @@ overflow: hidden;
 		.pop-info {
 		bottom:-9%;
 	}
+
+	.tab {
+		top: 92%;
+
+	}
 }
 
 @media only screen and (min-width: 90em) {
 
 		.pop-info {
 		bottom:-12%;
+	}
+
+	.tab {
+		top: 93%;
+
 	}
 }
 

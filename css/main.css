@@ -298,6 +298,36 @@ overflow: hidden;
 	display: none;
 }
 
+.navigation-pages {
+	display: inline-block;
+	float: right;
+	padding-right: 1em;
+}
+
+.navigation-pages li {
+	display: inline-block;
+	position: relative;
+	top:1.5em;
+	margin-left: 1em;
+}
+
+.navigation-pages a {
+	color: white;
+	text-decoration: none;
+}
+
+.logo {
+	height: 3em;
+	width: 10%;
+	position: absolute;
+	background-color: #ccc;
+
+}
+header {
+	background-color: #464646;
+	height: 3em;
+}
+
 
 @media only screen and (min-width: 25em) {
 

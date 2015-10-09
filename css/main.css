@@ -394,12 +394,16 @@ header {
 	z-index: 1;
 }
 
+
+
 .portfolio-page-spacing {
-	padding: 1%;
+	/*padding: .5%;*/
 	-webkit-filter: brightness(70%);
 	filter: brightness(70%);
 
 }
+
+
 
 .portfolio-page-spacing:hover {
 -webkit-filter:none;

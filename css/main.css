@@ -105,7 +105,7 @@ p {
 	padding-left: 10%;
 	padding-right: 10%;
 	
-	padding-bottom: 3em;
+	padding-bottom: 4em;
 	background-color: #464646;
 	position: relative;
 	bottom: 0;
@@ -394,6 +394,19 @@ header {
 	z-index: 1;
 }
 
+.portfolio-page-spacing {
+	padding: 1%;
+	-webkit-filter: brightness(70%);
+	filter: brightness(70%);
+
+}
+
+.portfolio-page-spacing:hover {
+-webkit-filter:none;
+filter:none;
+transition: all 200ms linear;
+}
+
 
 @media only screen and (min-width: 25em) {
 
@@ -462,4 +475,26 @@ header {
 		.pop-info {
 		bottom:-15%;
 	}
+
+	.container {
+		height: 514px;
+
+	}
+
+
 }
+
+@media only screen and (min-width: 125em) {
+	.container:hover {
+	width: 25%;
+}
+
+	}
+
+
+@media only screen and (min-width: 150em) {
+	.container:hover {
+	width: 20%;
+}
+
+	}

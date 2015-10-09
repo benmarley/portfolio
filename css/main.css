@@ -61,8 +61,6 @@ p {
 }
 .navigation-list li {
 	display: inline-block;
-
-
 }
 
 
@@ -137,6 +135,9 @@ p {
 	transition: all 400ms linear;
 	padding: 0;
 	margin: 0;	
+
+	-webkit-filter: brightness(70%);
+	filter: brightness(70%);
 }
 
 .expanding-divs {
@@ -157,6 +158,9 @@ p {
 	width: 30%;
 	-webkit-transition: all 100ms alternate;
 	transition: all 100ms alternate;
+
+	-webkit-filter:none;
+	filter:none;
 }
 .bg-1 {
  background: url("http://placehold.it/600x1200/666666");

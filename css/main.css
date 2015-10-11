@@ -66,17 +66,25 @@ p {
 
 
 .navigation-list a {
-	background-color: #6B6B6B;
+	background-color: #464646;
 	text-decoration: none;
-	color: black;
+	color: #ccc;
 	padding-top: .5em;
 	padding-bottom: .5em;
 
 }
 
+.navigation-list a:hover {
+
+	background-color: #6B6B6B;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
+
+}
+
 .border-nav{
-	border-left: solid;
-	border-right: solid;
+	border-left: solid  1px black;
+	border-right: solid 1px black;
 }
 
 .section-1-aboutme {
@@ -87,6 +95,14 @@ p {
 
 .section-1-aboutme img{
 	display: block;
+}
+
+.section-1-aboutme p {
+	font-size: 80%;
+}
+
+.intro {
+	margin: 0;
 }
 
 .social-media {
@@ -102,8 +118,8 @@ p {
 
 .tab {
 	display: inline-block;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 8%;
+	padding-right: 8%;
 	
 	padding-bottom: 4em;
 	background-color: #464646;
@@ -359,7 +375,7 @@ header {
 }
 
 .height-grid {
-	height: 3000px;
+	
 	text-align: center;
 
 }
@@ -398,8 +414,8 @@ header {
 
 .portfolio-page-spacing {
 	/*padding: .5%;*/
-	-webkit-filter: brightness(70%);
-	filter: brightness(70%);
+	-webkit-filter: brightness(40%);
+	filter: brightness(40%);
 
 }
 
@@ -410,6 +426,19 @@ header {
 filter:none;
 transition: all 200ms linear;
 }
+
+.proj-images{
+	margin-top:4em;
+}
+
+.proj-images img{
+	
+	padding-left:.5em;
+	padding-right:.5em;
+	padding-bottom: .05em;
+	display: block;
+}
+
 
 
 @media only screen and (min-width: 25em) {
@@ -451,6 +480,13 @@ transition: all 200ms linear;
 .fill-unit {
 	display: block;
 }
+
+.proj-images img{
+	
+	padding: .05em;
+	display: block;
+}
+
 
 
 

@@ -28,7 +28,7 @@ img {
 }
 
 p {
-	font-family: 'Noto Serif', serif;
+	font-size: 600;
 }
 .banner {
 	overflow: hidden;
@@ -103,6 +103,7 @@ p {
 
 .intro {
 	margin: 0;
+	font-size: 600;
 }
 
 .social-media {
@@ -179,13 +180,19 @@ p {
 	text-decoration: none;
 }
 
-.container:hover {
+.container:hover,
+.container:active,
+.container:focus {
 	width: 30%;
 	-webkit-transition: all 100ms alternate;
 	transition: all 100ms alternate;
 
 	-webkit-filter:none;
 	filter:none;
+}
+
+ {
+
 }
 .bg-1 {
  background: url("http://placehold.it/600x1200/666666");
@@ -320,7 +327,11 @@ overflow: hidden;
 .navigation-pages {
 	display: inline-block;
 	float: right;
-	padding-right: 1em;
+	/*padding-right: 1em;*/
+}
+
+.navigation-pages-on {
+	background-color: #5F5F5F;
 }
 
 .navigation-pages li {
@@ -333,6 +344,9 @@ overflow: hidden;
 .navigation-pages a {
 	color: white;
 	text-decoration: none;
+	padding-top: .25em;
+	padding-left: .5em;
+	padding-right: .5em;
 }
 
 .logo {
@@ -378,8 +392,7 @@ header {
 }
 
 .info-box p {
-	font-size: 72%;
-	text-align: justify;
+	
 
 
 }
@@ -441,8 +454,17 @@ filter:none;
 transition: all 300ms linear;
 }
 
+.gd-title {
+	margin-top: 4em;
+	margin-bottom: 0;	
+	text-align: center;
+	font-size: 200%;
+	font-weight: 800;
+
+}
+
 .proj-images{
-	margin-top:4em;
+	/*margin-top:4em;*/
 }
 
 .proj-images img{
@@ -509,6 +531,15 @@ transition: all 300ms linear;
 	margin-bottom: 0;
 }
 
+.pad-imag-section-1 {
+	padding-right: .5em;
+}
+
+.item-info {
+	font-size: 600;
+	font-size: 70%;
+	text-align: justify;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -532,6 +563,10 @@ transition: all 300ms linear;
 
 	.small-images-index {
 	display: none;	
+}
+
+.items-title-small {
+	display: none;
 }
 
 	

@@ -122,6 +122,7 @@ img {
 	color: #ccc;
 	padding-top: .5em;
 	padding-bottom: .5em;
+	font-size: 85%;
 }
 
 .navigation-list a:hover {
@@ -166,6 +167,10 @@ img {
 
 .social-media a {
 	display: block;
+	text-decoration: none;
+	color: black;
+	font-weight: 600;
+	font-size: 160%;
 }
 
 .section-3 {
@@ -544,6 +549,10 @@ header {
 		padding-left:2em;
 		padding-right:2em;
 }
+
+	.navigation-list a {
+		font-size: 100%;
+	}
 }
 
 @media only screen and (min-width: 38em) {

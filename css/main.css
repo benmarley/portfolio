@@ -39,7 +39,6 @@ img {
 	transform-style: preserve-3d;
 	height: 23em;
 	z-index: 4;
-
 	display: none;
 }
 
@@ -72,7 +71,6 @@ img {
 	right: 0%;
 	top:-100%;
 }
-
 
 .back-img-3 {
 	-webkit-transform: translateZ(-.3px) scale(.4);
@@ -133,7 +131,7 @@ img {
 	transition: all 200ms linear;
 }
 
-.border-nav{
+.border-nav {
 	border-left: solid  1px black;
 	border-right: solid 1px black;
 }
@@ -243,7 +241,6 @@ img {
  	position: relative;
 	overflow: hidden;
 }
-
 
 .bg-2 {
  	background: url("http://placehold.it/600x1000/666666");
@@ -395,7 +392,6 @@ header {
 	display: none;
 }
 
-
 .nav-bg-large-none {
 	text-align: center;
 	background-color: #ccc;
@@ -496,7 +492,7 @@ header {
 	margin-bottom: 4em; 
 }
 
-.small-images-index img{
+.small-images-index img {
 	display: block;
 	padding: .05em;
 }
@@ -540,14 +536,14 @@ header {
 
 @media only screen and (min-width: 25em) {
 
-	.nav-gd-none{
+	.nav-gd-none {
 		display: block;
 }
 
-	.nav-bg-large-none{
+	.nav-bg-large-none {
 		display: none;
 }
-	.proj-images img{
+	.proj-images img {
 		padding-left:2em;
 		padding-right:2em;
 }
@@ -634,7 +630,6 @@ header {
 @media only screen and (min-width: 46em) {
 
 	.parallax-group {
-		
 		height: 27em; 
 	}
 }

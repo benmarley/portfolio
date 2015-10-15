@@ -37,8 +37,10 @@ img {
 .parallax-group {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	height: 20em;
+	height: 23em;
 	z-index: 4;
+
+	display: none;
 }
 
 .main {
@@ -229,8 +231,8 @@ img {
 .container:focus,
 .container:active {
 	width: 30%;
-	-webkit-transition: all 200ms linear;
-	transition: all 200ms linear;
+	-webkit-transition: all 400ms linear;
+	transition: all 400ms linear;
 	-webkit-filter:none;
 	filter:none;
 }
@@ -508,7 +510,7 @@ header {
 	/*width: 30%;*/
 	position: relative;
 	top: 4em;
-	padding-left: .5em;
+	padding-left: 1%;
 }
 
 .select-item-images {
@@ -552,6 +554,12 @@ header {
 
 	.navigation-list a {
 		font-size: 100%;
+	}
+
+	.item-information {
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 2em;
 	}
 }
 
@@ -600,6 +608,35 @@ header {
 	.intro-spacing {
 		width: 50%;
 }
+
+	.parallax-group {
+		display: block;
+		height: 23em; 
+	}
+
+	.back-img {
+		top: -45%;
+	}
+	.back-img-2 {
+		top: -38%;
+	}
+	.back-img-3 {
+		top: -42%;
+	}
+
+	.item-information {
+		padding-left: 2%;
+		padding-right: 0;
+		padding-bottom: 0;
+	}
+}
+
+@media only screen and (min-width: 46em) {
+
+	.parallax-group {
+		
+		height: 27em; 
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -609,12 +646,28 @@ header {
 	}
 	.tab-bg {
 		top: 93%;
-}
+	}
 
 	.proj-images img{
 		padding-left:.05em;
 		padding-right:.05em;
+	}
+
+	.parallax-group {
+		height: 31em; 
+	}
+
+	.item-information {
+		padding-left: 5%;
+	}
+
 }
+
+@media only screen and (min-width: 80em) {
+	
+	.parallax-group {
+		height: 35em; 
+	}
 }
 
 @media only screen and (min-width: 90em) {
@@ -622,6 +675,11 @@ header {
 	.pop-info {
 		bottom:-12%;
 	}
+
+	.parallax-group {
+		height: 35em; 
+	}
+
 }
 
 @media only screen and (min-width: 100em) {
@@ -633,6 +691,10 @@ header {
 	.container {
 		height: 514px;
 	}
+
+	.parallax-group {
+		height: 45em; 
+	}
 }
 
 @media only screen and (min-width: 125em) {
@@ -640,6 +702,20 @@ header {
 	.container:hover {
 		width: 25%;
 }
+
+	.parallax-group {
+		height: 48em; 
+	}
+
+	.item-information {
+		padding-left: 8%;
+	}
+}
+
+@media only screen and (min-width: 135em) {
+	.parallax-group {
+		height: 54em; 
+	}
 }
 
 
@@ -647,4 +723,8 @@ header {
 	.container:hover {
 		width: 20%;
 }
+
+	.parallax-group {
+		height: 57em; 
+	}
 }

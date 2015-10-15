@@ -26,7 +26,6 @@ body {
 	height: 100vh;
 	-webkit-overflow-scrolling:touch;
 
-
 	-webkit-perspective: 1px;
 	perspective: 1px;
 }
@@ -47,41 +46,29 @@ img {
 	position: relative;
 }
 
-
 .bg-par {
-background-color: #ccc;
-padding-top: 2em;
-padding-bottom: 2em;
-overflow: hidden;
-
-display: none;
+	background-color: #ccc;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	overflow: hidden;
+	display: none;
 }
 
 .back-img {
 	-webkit-transform: translateZ(-.4px) scale(.45);
 	transform: translateZ(-.4px) scale(.45);
-
 	position: absolute;
 	top: -100%;
 	right: 45%;
 	z-index: 1;
-
-	/*top: calc(((100vh - 87.5vw) / 4) * -2);*/
 }
-
-
-
-
 
 .back-img-2 {
 	-webkit-transform: translateZ(-.2px) scale(.35);
 	transform: translateZ(-.2px) scale(.35);
-
 	position: absolute;
 	right: 0%;
 	top:-100%;
-
-	/*top: calc(((100vh - 87.5vw) / 4) * -2);*/
 }
 
 
@@ -91,20 +78,14 @@ display: none;
 	position: absolute;
 	right: -42%;
 	top:-100%;
-
-	/*top: calc(((100vh - 87.5vw) / 4) * -2);*/
 }
-.front {
 
+.front {
 	position: absolute;
 	z-index: 1;
 	left: 50%;
 	transform: translateX(-50%);
-	
-
 }
-
-
 
 .banner {
 	overflow: hidden;
@@ -112,8 +93,6 @@ display: none;
 	position: relative;
 	margin: 0;
 	padding: 0;
-	
-
 }
 
 .banner img {
@@ -126,20 +105,16 @@ display: none;
 	left:50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
-
-
 }
 
 .navigation-list {
 	width: 100%;
 	text-align: center;
-
 }
+
 .navigation-list li {
 	display: inline-block;
 }
-
-
 
 .navigation-list a {
 	background-color: #464646;
@@ -147,15 +122,12 @@ display: none;
 	color: #ccc;
 	padding-top: .5em;
 	padding-bottom: .5em;
-
 }
 
 .navigation-list a:hover {
-
 	background-color: #6B6B6B;
 	-webkit-transition: all 200ms linear;
 	transition: all 200ms linear;
-
 }
 
 .border-nav{
@@ -165,7 +137,6 @@ display: none;
 
 .section-1-aboutme {
 	display: none;
-
 	padding-top: 10em;
 	padding-bottom: 10em;
 	background-color: #B1B1B1;
@@ -190,38 +161,29 @@ display: none;
 
 .social-media {
 	text-align: center;
-	position: relative;
-	
+	position: relative;	
 }
 
 .social-media a {
 	display: block;
-	
-
 }
 
 .section-3 {
 	display: block;
-
 	padding-top:5em;
 	padding-bottom: 5em;
-
 }
 
 .tab {
 	display: inline-block;
 	padding-left: 8%;
 	padding-right: 8%;
-	
 	padding-bottom: 4em;
 	background-color: #464646;
 	position: relative;
 	bottom: 0;
-
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
-
-
 }
 
 .tab:hover {
@@ -230,7 +192,6 @@ display: none;
 	transition: all 300ms linear;
 	background-color: #6B6B6B;
 	box-shadow: 2px 6px 15px black;
-
 }
 
 .container {
@@ -243,19 +204,16 @@ display: none;
 	transition: all 400ms linear;
 	padding: 0;
 	margin: 0;	
-
 	-webkit-filter: brightness(70%);
 	filter: brightness(70%);
 }
 
 .expanding-divs {
 	text-align: center;
-	
 	overflow: hidden;
 	padding-top: 10em;
 	padding-bottom: 10em;
 	background-color: #E7E7E7;
-
 }
 
 .expanding-divs a {
@@ -268,84 +226,75 @@ display: none;
 	width: 30%;
 	-webkit-transition: all 100ms alternate;
 	transition: all 100ms alternate;
-
 	-webkit-filter:none;
 	filter:none;
 }
 
- {
-
-}
 .bg-1 {
- background: url("http://placehold.it/600x1200/666666");
- background-repeat: no-repeat;
- position: relative;
- overflow: hidden;
+	background: url("http://placehold.it/600x1200/666666");
+	background-repeat: no-repeat;
+ 	position: relative;
+	overflow: hidden;
 }
 
 
 .bg-2 {
- background: url("http://placehold.it/600x1000/666666");
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
+ 	background: url("http://placehold.it/600x1000/666666");
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
 }
 
 .bg-3 {
- background: url("http://placehold.it/600x1000/666666");
-  background-repeat: no-repeat;
-  position: relative;
-  overflow: hidden;
+ 	background: url("http://placehold.it/600x1000/666666");
+ 	background-repeat: no-repeat;
+  	position: relative;
+  	overflow: hidden;
 }
 
 .bg-4 {
- background: url("http://placehold.it/600x1000/666666");
- background-repeat: no-repeat;
- position: relative;
- overflow: hidden;
+	background: url("http://placehold.it/600x1000/666666");
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
 }
 
 .bg-5 {
- background: url("http://placehold.it/600x1000/666666");
- background-repeat: no-repeat;
- position: relative;
- overflow: hidden;
+	background: url("http://placehold.it/600x1000/666666");
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
 }
 
 .bg-6 {
- background: url("http://placehold.it/600x1000/666666");
- background-repeat: no-repeat;
-position: relative;
-overflow: hidden;
+	background: url("http://placehold.it/600x1000/666666");
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
 }
 
 .bg-7 {
-background: url("http://placehold.it/600x1000/666666");
-background-repeat: no-repeat;
-position: relative;
-overflow: hidden;
+	background: url("http://placehold.it/600x1000/666666");
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
 }
 
 .bg-8 {
- background: url("http://placehold.it/600x1000/666666");
- background-repeat: no-repeat;
- position: relative;
- overflow: hidden;
+	background: url("http://placehold.it/600x1000/666666");
+	background-repeat: no-repeat;
+	position: relative;
+	overflow: hidden;
 }
 
 .expanding-divs {
-		display: none;
+	display: none;
 }
 
 .center-tabs a {
 	color:black;	
 	font-size: 120%;
 	color: #ccc;
-
-}
-
-.tab-2 {
-	
 }
 
 .tab-bg {
@@ -357,14 +306,8 @@ overflow: hidden;
 }
 
 .footer {
-	/*height: 100px;*/
 	width: 100%;
 	background-color: #464646;
-
-}
-
-.middle-banner {
-	
 }
 
 .middle-banner img {
@@ -391,7 +334,6 @@ overflow: hidden;
 	top: 0%;
 	left: 0%;
 	margin: 0;	
-	
 }
 
 .expanding-divs a {
@@ -409,7 +351,6 @@ overflow: hidden;
 .navigation-pages {
 	display: inline-block;
 	float: right;
-	/*padding-right: 1em;*/
 }
 
 .navigation-pages-on {
@@ -436,12 +377,11 @@ overflow: hidden;
 	width: 10%;
 	position: absolute;
 	background-color: #ccc;
-
 }
+
 header {
 	background-color: #464646;
 	height: 3em;
-
 }
 
 .nav-gd-none{
@@ -463,47 +403,31 @@ header {
 	padding-bottom: 1em;
 }
 
-
-
-
-
 .height-grid {
-	
 	text-align: center;
-
 }
-
-
 
 .fill-unit {
 	display: none;
 }
 
 .fixed-nav {
-	
 	width: 100%;
 	z-index: 1;
 }
 
-
-
 .portfolio-page-spacing {
-	/*padding: .5%;*/
 	-webkit-filter: brightness(40%);
 	filter: brightness(40%);
-
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
-
 }
 
-
-
 .portfolio-page-spacing:hover {
--webkit-filter:none;
-filter:none;
--webkit-transition: all 300ms linear;
-transition: all 300ms linear;
+	-webkit-filter:none;
+	filter:none;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
 }
 
 .gd-title {
@@ -512,15 +436,9 @@ transition: all 300ms linear;
 	text-align: center;
 	font-size: 200%;
 	font-weight: 800;
-
 }
 
-.proj-images{
-	/*margin-top:4em;*/
-}
-
-.proj-images img{
-	
+.proj-images img{	
 	padding-left:.5em;
 	padding-right:.5em;
 	padding-bottom: .05em;
@@ -535,13 +453,8 @@ transition: all 300ms linear;
 	width: 70%;
 }
 
-.center-intro {
-	/*text-align: center;*/
-}
-
 .back-to-top {
 	width: 10%;
-	/*float: left;*/
 }
 
 .copyright {
@@ -550,7 +463,6 @@ transition: all 300ms linear;
 	font-size: 70%;
 	color: white;
 }
-
 
 .skip-links {
 	margin:  0;
@@ -570,20 +482,16 @@ transition: all 300ms linear;
 
 .skip-links a:focus {
 	top: 0em;
-
 }
 
 .small-images-index {
 	padding: .25em;
 	margin-bottom: 4em; 
-
 }
 
 .small-images-index img{
 	display: block;
 	padding: .05em;
-
-
 }
 
 .items-title-small {
@@ -591,17 +499,11 @@ transition: all 300ms linear;
 	margin-bottom: 0;
 }
 
-.pad-imag-section-1 {
-	/*padding-right: .5em;*/
-}
-
 .item-information {
 	/*width: 30%;*/
 	position: relative;
 	top: 4em;
 	padding-left: .5em;
-
-
 }
 
 .select-item-images {
@@ -609,12 +511,11 @@ transition: all 300ms linear;
 	padding-right: 3em;
 	margin-top:4em; 
 	text-align: center;
-
 }
+
 .select-item-images img {
 	width: 60%;
 }
-
 
 .item-title {
 	margin:0;
@@ -633,34 +534,26 @@ transition: all 300ms linear;
 @media only screen and (min-width: 25em) {
 
 	.nav-gd-none{
-	display: block;
+		display: block;
 }
 
-.nav-bg-large-none{
-	display: none;
+	.nav-bg-large-none{
+		display: none;
 }
-.proj-images img{
-	
-	padding-left:2em;
-	padding-right:2em;
-	
+	.proj-images img{
+		padding-left:2em;
+		padding-right:2em;
 }
-
 }
 
 @media only screen and (min-width: 38em) {
-
 	.small-images-index {
-	display: none;	
+		display: none;	
 }
 
-.items-title-small {
-	display: none;
+	.items-title-small {
+		display: none;
 }
-
-	
-
-
 	.expanding-divs {
 		display: block;
 	}
@@ -674,97 +567,75 @@ transition: all 300ms linear;
 	}
 	
 
-.fill-unit {
-	display: block;
+	.fill-unit {
+		display: block;
 }
 
-.proj-images img{
-	
-	padding: .05em;
-	display: block;
+	.proj-images img{
+		padding: .05em;
+		display: block;
 }
 
-.tab-bg {
-	top: 91%;
-	
+	.tab-bg {
+		top: 91%;
 }
 
-.section-1-aboutme {
-	display: block;
+	.section-1-aboutme {
+		display: block;
 }
 
-.bg-par {
-	display: block;
+	.bg-par {
+		display: block;
 }
 
-.intro-spacing {
-	width: 50%;
+	.intro-spacing {
+		width: 50%;
 }
-
-
-
-
-
-
 }
 
 @media only screen and (min-width: 60em) {
 
-		.pop-info {
+	.pop-info {
 		bottom:-9%;
 	}
 	.tab-bg {
-
-	
-	top: 93%;
-	
+		top: 93%;
 }
 
-.proj-images img{
-	
-	padding-left:.05em;
-	padding-right:.05em;
-	
+	.proj-images img{
+		padding-left:.05em;
+		padding-right:.05em;
 }
-
-
-	
 }
 
 @media only screen and (min-width: 90em) {
 
-		.pop-info {
+	.pop-info {
 		bottom:-12%;
 	}
-
-	
 }
 
 @media only screen and (min-width: 100em) {
 
-		.pop-info {
+	.pop-info {
 		bottom:-15%;
 	}
 
 	.container {
 		height: 514px;
-
 	}
-
-
 }
 
 @media only screen and (min-width: 125em) {
+	
 	.container:hover {
-	width: 25%;
+		width: 25%;
 }
-
-	}
+}
 
 
 @media only screen and (min-width: 150em) {
 	.container:hover {
-	width: 20%;
+		width: 20%;
 }
-
-	}
+}

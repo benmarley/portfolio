@@ -229,8 +229,8 @@ img {
 .container:focus,
 .container:active {
 	width: 30%;
-	-webkit-transition: all 100ms alternate;
-	transition: all 100ms alternate;
+	-webkit-transition: all 200ms linear;
+	transition: all 200ms linear;
 	-webkit-filter:none;
 	filter:none;
 }

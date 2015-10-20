@@ -17,19 +17,19 @@
 		<li><a href="#footer">footer</a></li>
 	</ul>
 
-	<header>
+	<header class="fixed-nav">
 		<a href="index.html">
 			<div class="logo" title="logo"></div>
 		</a>
 		
 		<nav class="nav-gd-none" id="nav">
 			<ul class="navigation-pages">
-				<li><a href="graphicdesign.html" class="navigation-pages-on">Graphic Design</a></li>
+				<li><a href="graphicdesign.html">Graphic Design</a></li>
 				<li><a href="graphicdesign.html">Motion</a></li>
 				<li><a href="graphicdesign.html">Illustration</a></li>
 			</ul>
 		</nav>
-			
+
 	</header>
 
 	<nav>
@@ -39,14 +39,24 @@
 			<li class="unit unit-xs-1-3"><a href="graphicdesign.html">Illustration</a></li>
 		</ul>
 	</nav>
-
+	
 	<main role="main">
+		
 
 {{content}}
 
+</div>
+
+		<footer class="footer" id="footer">
+			<a href="#nav">
+				<img class="back-to-top" src="http://placehold.it/100x100" alt="back to top">
+			</a>
+			<p class="copyright" role="contentinfo">©Copyright • Ben Marley 2015</p>	
+		</footer>
+
 	</main>
 
-		<script src="js/main.js"></script>
+<script src="js/main.js"></script>
 
 </body>
 </html>

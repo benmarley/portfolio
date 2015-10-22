@@ -236,7 +236,7 @@ img {
 }
 
 .bg-1 {
-	background: url("http://placehold.it/600x1200/666666");
+	background: url("http://placehold.it/600x1000/666666");
 	background-repeat: no-repeat;
  	position: relative;
 	overflow: hidden;

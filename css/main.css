@@ -64,21 +64,6 @@ img {
 	z-index: 1;
 }
 
-.back-img-2 {
-	-webkit-transform: translateZ(-.2px) scale(.35);
-	transform: translateZ(-.2px) scale(.35);
-	position: absolute;
-	right: 0%;
-	top:-100%;
-}
-
-.back-img-3 {
-	-webkit-transform: translateZ(-.3px) scale(.4);
-	transform: translateZ(-.3px) scale(.4);
-	position: absolute;
-	right: -42%;
-	top:-100%;
-}
 
 .front {
 	position: absolute;
@@ -152,12 +137,11 @@ img {
 }
 
 .section-1-aboutme p {
-	font-size: 80%;
+	
 }
 
 .intro {
 	margin: 0;
-	font-size: 600;
 }
 
 .social-media {
@@ -564,7 +548,7 @@ header {
 }
 
 .info-content {
-	font-size: 70%;
+	
 	margin: 0;
 }
 
@@ -656,7 +640,7 @@ header {
 }
 
 	.tab-bg {
-		top: 91%;
+		top: 88%;
 }
 
 	.section-1-aboutme {
@@ -671,10 +655,6 @@ header {
 		width: 50%;
 }
 
-	.parallax-group {
-		display: block;
-		height: 23em; 
-	}
 
 	.back-img {
 		top: -45%;
@@ -694,6 +674,10 @@ header {
 }
 
 @media only screen and (min-width: 46em) {
+
+	.tab-bg {
+		top: 89%;
+}
 
 	.parallax-group {
 		height: 27em; 

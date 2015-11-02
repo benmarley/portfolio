@@ -287,24 +287,28 @@ transform:translateX(-50%);
 }
 
 .bg-5 {
-	background: url("http://placehold.it/600x516/666666");
+	background: url("../images/napolean-bust-study.jpg");
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
+	background-position-x: 30%; 
+	background-position-y: 60%; 
 }
 
 .bg-6 {
-	background: url("http://placehold.it/600x516/666666");
+	background: url("../images/beacon-app.jpg");
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
 }
 
 .bg-7 {
-	background: url("http://placehold.it/600x516/666666");
+	background: url("../images/ben-mech-render.jpg");
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
+	background-size: 40em;
+	background-position-x: 60%; 
 }
 
 .bg-8 {
@@ -371,6 +375,7 @@ transform:translateX(-50%);
 	top: 0%;
 	left: 0%;
 	margin: 0;	
+	color: white;
 }
 
 .expanding-divs a {

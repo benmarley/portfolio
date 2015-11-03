@@ -11,7 +11,8 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  overflow: hidden;
+ overflow: hidden;
+
 }
 
 *, *::before, *::after {
@@ -19,12 +20,13 @@ html {
 }
 
 body {
+	height: 100vh;
 	margin: 0;
 	padding: 0;
+
 	overflow-y: auto;
 	overflow-x: hidden;
-	height: 100vh;
-	-webkit-overflow-scrolling:touch;
+	-webkit-overflow-scrolling: touch;
 
 	-webkit-perspective: 1px;
 	perspective: 1px;
@@ -34,40 +36,30 @@ img {
 	width: 100%;
 }
 
-.parallax-group {
+.parallax-banner {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	height: 23em;
-	z-index: 4;
-	display: none;
+
+	padding-top: 10em;
+	padding-bottom: 10em;
+
+
 }
 
-.main {
-	z-index: 1;
+.image-back-parallax {
+	-webkit-transform: translateZ(-.2px) scale(1.5);
+	transform: translateZ(-.2px) scale(1.5);
+	width: 100%;
+	display: block;
 	position: relative;
+	top: calc(((100vh - 50vw) / 4) * -2);
+
+	z-index: -1;
 }
 
-.bg-par {
-	background-color: #ccc;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	overflow: hidden;
-	display: none;
-}
-
-.back-img {
-	-webkit-transform: translateZ(-.4px) scale(.45);
-	transform: translateZ(-.4px) scale(.45);
+.parallax-header {
 	position: absolute;
-	top: -100%;
-	right: 45%;
-	z-index: 1;
-}
-
-
-.front {
-	position: absolute;
-	z-index: 1;
+	top: 40%;
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -304,6 +296,9 @@ transform:translateX(-50%);
 
 .expanding-divs {
 	display: none;
+
+	position: relative;
+	z-index: 1;
 }
 
 .center-tabs a {
@@ -476,6 +471,9 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
+
+	position: relative;
+	z-index: 2;
 }
 
 .back-to-top {
@@ -572,7 +570,6 @@ header {
 	top: 14%;
 	left: 40%;
 	width: 20%;
-
 }
 
 .computer-container {

@@ -36,6 +36,38 @@ img {
 	width: 100%;
 }
 
+
+#lightbox {
+	
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	overflow: hidden;
+	transition: all 500ms linear;
+
+	
+
+}
+
+#lightbox:target {
+	
+	width: 80%;
+}
+
+.x-image {
+	width: 15%;
+}
+
+
+
+
+
+
+
+
+
 .parallax-banner {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;

@@ -298,10 +298,11 @@ transform:translateX(-50%);
 }
 
 .bg-8 {
-	background: url("http://placehold.it/600x516/666666");
+	background: url("../images/blackland-sell-sheet.jpg");
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
+	background-size: 29em;
 }
 
 .expanding-divs {
@@ -500,13 +501,20 @@ header {
 .grid-heading-title {
 	font-color: white;
 }
+.p-images {
+	display: block;
+}
+
+.grid-image-item img {
+	display: block;
+}
 
 .intro-spacing {
 	padding-top: 4em;
 	padding-bottom: 4em;
 	
 	width: 100%;
-	background-color: #fffae6;
+	background-color: #FFFDF3;
 
 	position: relative;
 	z-index: 6;

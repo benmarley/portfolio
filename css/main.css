@@ -46,19 +46,35 @@ img {
 	width: 0;
 	overflow: hidden;
 	transition: all 500ms linear;
-
-	
-
 }
 
 #lightbox:target {
 	
-	width: 80%;
+	width: 70%;
 }
 
 .x-image {
 	width: 15%;
 }
+
+
+
+#lightbox-two {
+	
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	overflow: hidden;
+	transition: all 500ms linear;
+}
+
+#lightbox-two:target {
+	
+	width: 70%;
+}
+
 
 
 
@@ -130,7 +146,7 @@ img {
 }
 
 .navigation-list a {
-	background-color: #EF9033;
+	background-color: #405d77;
 	text-decoration: none;
 	color: #ccc;
 	padding-top: .5em;
@@ -138,11 +154,7 @@ img {
 	font-size: 85%;
 }
 
-.navigation-list a:hover {
-	background-color: #6B6B6B;
-	-webkit-transition: all 200ms linear;
-	transition: all 200ms linear;
-}
+
 
 .border-nav {
 	border-left: solid  1px black;
@@ -178,7 +190,9 @@ img {
 }
 
 .center-intro {
-	width: 50%;
+	width: 70%;
+	color: #405d77;
+	padding-left: 2em;
 }
 
 .social-media a {
@@ -264,6 +278,11 @@ transform:translateX(-50%);
 	transition: all 400ms linear;
 	-webkit-filter:none;
 	filter:none;
+}
+
+.work-title {
+	font-size: 5rem;
+	color: #b75955;
 }
 
 .bg-1 {
@@ -426,7 +445,7 @@ transform:translateX(-50%);
 .navigation-pages li {
 	display: inline-block;
 	position: relative;
-	top:1.5em;
+	top:1.2em;
 	margin-left: 1em;
 }
 
@@ -541,6 +560,10 @@ header {
 	display: block;
 }
 
+.grid-image-item {
+	padding: .5em;
+}
+
 .intro-spacing {
 	padding-top: 4em;
 	padding-bottom: 4em;
@@ -610,8 +633,10 @@ header {
 
 
 .item-title {
-	margin:0;
-	line-height: 1;
+	margin-top: 1em;
+	padding-left: 2em;
+	margin-bottom: 0;
+
 }
 
 
@@ -669,6 +694,12 @@ header {
 
 }
 
+.info-content {
+	width: 50%;
+	padding-left: 3em;
+	padding-top: 2em;
+}
+
 
 
 @media only screen and (min-width: 25em) {
@@ -691,6 +722,12 @@ header {
 }
 
 @media only screen and (min-width: 38em) {
+
+	.center-intro {
+	width: 50%;
+	color: #405d77;
+	padding-left: 2em;
+}
 	.small-images-index {
 		display: none;	
 }
@@ -760,6 +797,17 @@ left:10%;
 
 @media only screen and (min-width: 46em) {
 
+	#lightbox:target {
+	
+	width: 50%;
+}
+
+#lightbox-two:target {
+
+	width: 50%;
+
+}
+
 	.tab-bg {
 		top: 87%;
 }
@@ -770,6 +818,17 @@ left:10%;
 }
 
 @media only screen and (min-width: 60em) {
+
+	#lightbox:target {
+	
+	width: 50%;
+}
+
+#lightbox-two:target {
+
+	width: 50%;
+
+}
 
 	.pop-info {
 		bottom:-9%;
@@ -799,6 +858,17 @@ left:10%;
 	.tab-bg {
 		top: 92%;
 	}
+
+	#lightbox:target {
+	
+	width: 50%;
+}
+
+#lightbox-two:target {
+
+	width: 50%;
+
+}
 }
 
 @media only screen and (min-width: 90em) {

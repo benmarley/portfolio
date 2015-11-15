@@ -128,15 +128,23 @@ img {
 
 .banner img {
 	display: block;
+	position: relative;
+
 }
 
 .banner-heading {
 	width: 20%;
-	color: black;
+	left: 20%;
+	top: 10%;
+	color: #FFFDF3;
 	position: absolute;
-	left:50%;
+	font-size: 500%;
+	text-align: left;
+	line-height: .9;
+	z-index: 1;
+	/*left:50%;
 	-webkit-transform: translateX(-50%);
-	transform: translateX(-50%);
+	transform: translateX(-50%);*/
 }
 
 .navigation-list {
@@ -215,7 +223,7 @@ img {
 }
 
 .tab-1{
-left:7%;
+left:5%;
 }
 .tab-2{
 left:50%;
@@ -806,11 +814,21 @@ header {
 	}
 
 	.tab-1{
-left:10%;
+left:4%;
+}
+
+.tab-3 {
+	left: 65%;
 }
 
 .par-vis {
 	display: block;
+}
+
+.banner img {
+	display: block;
+	position: relative;
+	top: -2em;
 }
 
 
@@ -835,6 +853,17 @@ left:10%;
 
 	.parallax-group {
 		height: 27em; 
+	}
+
+	.tab-1 {
+		left:10%;
+	}
+
+		
+
+		.tab-3 {
+			left: 62%;
+		
 	}
 }
 
@@ -864,6 +893,18 @@ left:10%;
 
 	.parallax-group {
 		height: 31em; 
+	}
+
+
+	.tab-1 {
+		left:16%;
+	}
+
+		
+
+		.tab-3 {
+			left: 61%;
+		
 	}
 
 

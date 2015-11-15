@@ -131,6 +131,7 @@ img {
 }
 
 .banner-heading {
+	width: 20%;
 	color: black;
 	position: absolute;
 	left:50%;

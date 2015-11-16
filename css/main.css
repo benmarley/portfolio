@@ -46,6 +46,7 @@ img {
 	width: 0;
 	overflow: hidden;
 	transition: all 500ms linear;
+	z-index: 1;
 }
 
 #lightbox:target {
@@ -68,6 +69,7 @@ img {
 	width: 0;
 	overflow: hidden;
 	transition: all 500ms linear;
+	z-index: 1;
 }
 
 #lightbox-two:target {
@@ -75,10 +77,54 @@ img {
 	width: 70%;
 }
 
+#lightbox-three {
+	
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	overflow: hidden;
+	transition: all 500ms linear;
+	z-index: 1;
+}
+
+#lightbox-three:target {
+	width: 90%;
+}
+
+#lightbox-four {
+	
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	overflow: hidden;
+	transition: all 500ms linear;
+	z-index: 1;
+}
+
+#lightbox-four:target {
+	width: 90%;
+}
 
 
+#lightbox-five {
+	
+	position: absolute;
+	top: 2em;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	overflow: hidden;
+	transition: all 500ms linear;
+	z-index: 1;
+}
 
-
+#lightbox-five:target {
+	width: 90%;
+}
 
 
 
@@ -590,6 +636,14 @@ header {
 }
 /*palette*/
 
+.black {
+	color: black;
+}
+
+.white {
+	color: white;
+}
+
 .red {
 color: #b75955;
 }
@@ -615,7 +669,23 @@ color: #8bafc6;
 }
 
 .lightgrey {
-	color: #97a5af
+	color: #97a5af;
+}
+
+.lightbeige {
+	color: #ede6c5
+}
+
+.lightred {
+color: #ea9d9b;
+}
+
+.lightblue {
+color: #8bafc6;
+}
+
+.lightgrey {
+	color: #97a5af;
 }
 
 .lightbeige {
@@ -877,12 +947,12 @@ left:4%;
 
 	#lightbox:target {
 	
-	width: 50%;
+	/*width: 50%;*/
 }
 
 #lightbox-two:target {
 
-	width: 50%;
+	/*width: 50%;*/
 
 }
 
@@ -906,16 +976,17 @@ left:4%;
 	}
 }
 
+
 @media only screen and (min-width: 60em) {
 
 	#lightbox:target {
 	
-	width: 50%;
+	/*width: 50%;*/
 }
 
 #lightbox-two:target {
 
-	width: 50%;
+	/*width: 50%;*/
 
 }
 
@@ -936,7 +1007,7 @@ left:4%;
 
 
 	.tab-1 {
-		left:16%;
+		left:12%;
 	}
 
 		
@@ -948,6 +1019,16 @@ left:4%;
 
 
 
+}
+
+
+
+@media only screen and (min-width: 72em) {
+
+	.tab-1 {
+		left: 16%;
+
+	}
 }
 
 @media only screen and (min-width: 80em) {
@@ -962,12 +1043,12 @@ left:4%;
 
 	#lightbox:target {
 	
-	width: 50%;
+	/*width: 50%;*/
 }
 
 #lightbox-two:target {
 
-	width: 50%;
+	/*width: 50%;*/
 
 }
 }

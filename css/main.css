@@ -51,6 +51,10 @@ img {
 	position: relative;
 	top: 0;
 	overflow: hidden;
+
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
 }
 
 .wb-border {
@@ -78,7 +82,7 @@ img {
 
 #lightbox:target {
 	
-	width: 70%;
+	width: 80%;
 }
 
 .x-image {
@@ -101,7 +105,7 @@ img {
 
 #lightbox-two:target {
 	
-	width: 70%;
+	width: 80%;
 }
 
 #lightbox-three {
@@ -117,7 +121,7 @@ img {
 }
 
 #lightbox-three:target {
-	width: 90%;
+	width: 80%;
 }
 
 #lightbox-four {
@@ -276,7 +280,7 @@ img {
 }
 
 .center-intro {
-	width: 70%;
+	width: 85%;
 	color: #405d77;
 	padding-left: 2em;
 }
@@ -469,6 +473,7 @@ transform:translateX(-50%);
 	width: 100%;
 	background-color: #b75955;
 	position: relative;
+	margin-top: 15%;
 }
 
 .contact {

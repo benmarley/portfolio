@@ -36,6 +36,11 @@ img {
 	width: 100%;
 }
 
+.pad-main {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 .vid {
 	width: 100%;
 	height: 100%;
@@ -247,8 +252,8 @@ img {
 
 
 .border-nav {
-	border-left: solid  1px black;
-	border-right: solid 1px black;
+	border-left: solid  1px #31485D;
+	border-right: solid 1px #31485D;
 }
 
 .section-1-aboutme {
@@ -632,6 +637,12 @@ header {
 	display: block;
 }
 
+.proj-images {
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 2em;
+}
+
 #grid-contain #box-title {
 	transition: all 300ms linear;
 }
@@ -970,6 +981,11 @@ left:4%;
 	display: block;
 	position: relative;
 	top: -2em;
+}
+
+.pad-main {
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 

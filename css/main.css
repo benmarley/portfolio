@@ -209,10 +209,14 @@ img {
 	top: 10%;
 	color: #FFFDF3;
 	position: absolute;
-	font-size: 500%;
+	font-size: 250%;
 	text-align: left;
 	line-height: .9;
 	z-index: 1;
+}
+
+.ben {
+	font-size: 170%;
 }
 
 .navigation-list {
@@ -968,6 +972,10 @@ color: #8bafc6;
 		padding-left: 20%;
 		padding-right: 20%;
 	}
+
+	.banner-heading {
+		font-size: 400%;
+	}
 }
 
 @media only screen and (min-width: 46em) {
@@ -992,27 +1000,25 @@ color: #8bafc6;
 	.tab-1 {
 		left:10%;
 	}
-		.tab-3 {
-			left: 62%;
+	.tab-3 {
+		left: 62%;
+	}
+
+	.banner-heading {
+		font-size: 500%;
 	}
 }
 
 
+
 @media only screen and (min-width: 60em) {
-
-	#lightbox:target {
-		/*width: 50%;*/
-	}
-
-	#lightbox-two:target {
-		/*width: 50%;*/
-	}
 
 	.pop-info {
 		bottom:-9%;
 	}
+
 	.tab-bg {
-		top: 91%;
+		top: 90%;
 	}
 
 	.parallax-group {
@@ -1022,8 +1028,13 @@ color: #8bafc6;
 	.tab-1 {
 		left:12%;
 	}
+
 	.tab-3 {
 		left: 61%;
+	}
+
+	.banner-heading {
+		font-size: 600%;
 	}
 }
 

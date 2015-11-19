@@ -23,7 +23,6 @@ body {
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
@@ -60,6 +59,7 @@ img {
 	margin-left: 2em;
 	margin-right: 2em;
 	margin-bottom: 2em;
+	margin-top: 10em;
 }
 
 .wb-border {
@@ -201,6 +201,7 @@ img {
 .banner img {
 	display: block;
 	position: relative;
+	z-index: 10;
 }
 
 .banner-heading {
@@ -212,7 +213,7 @@ img {
 	font-size: 250%;
 	text-align: left;
 	line-height: .9;
-	z-index: 1;
+	z-index: 24;
 }
 
 .ben {
@@ -261,6 +262,9 @@ img {
 
 .intro {
 	margin: 0;
+	font-size: 200%;
+	padding-left: 1em;
+	color: #405d77;
 }
 
 .social-media {
@@ -463,6 +467,7 @@ transform:translateX(-50%);
 	background-color: #b75955;
 	position: relative;
 	margin-top: 15%;
+	padding-bottom: 5em; 
 }
 
 .contact {
@@ -473,10 +478,9 @@ transform:translateX(-50%);
 	text-align: right;
 	padding-right: 1em;
 	position: absolute;
-	top: 1em;
+	top: 2em;
 	right: 0%;
 	text-decoration: none;
-	font-size: 120%;
 }
 
 .contact a {
@@ -756,6 +760,9 @@ color: #8bafc6;
 	margin: 0;
 	font-size: 70%;
 	color: white;
+	position: absolute;
+	bottom: 0%;
+	right: 1%;
 }
 
 .skip-links {
@@ -795,8 +802,9 @@ color: #8bafc6;
 
 .item-title {
 	margin-top: 1em;
-	padding-left: 2em;
+	/*padding-left: 2em;*/
 	margin-bottom: 0;
+	text-align: center;
 }
 
 .fixed-test {
@@ -864,9 +872,10 @@ color: #8bafc6;
 }
 
 .info-content {
-	width: 50%;
-	padding-left: 3em;
+	width: 100%;
+	padding-left: 10%;
 	padding-top: 2em;
+	padding-right: 10%;
 }
 
 @media only screen and (min-width: 25em) {
@@ -887,6 +896,12 @@ color: #8bafc6;
 	}
 
 @media only screen and (min-width: 38em) {
+
+	.info-content {
+		padding-left: 20%;
+		padding-right: 20%;
+
+	}
 
 	.center-intro {
 	width: 50%;
@@ -968,13 +983,14 @@ color: #8bafc6;
 		top: -2em;
 	}
 
-	.pad-main {
-		padding-left: 20%;
-		padding-right: 20%;
-	}
+	
 
 	.banner-heading {
 		font-size: 400%;
+	}
+
+	.info-content {
+		padding-left: 20%;
 	}
 }
 
@@ -1007,6 +1023,11 @@ color: #8bafc6;
 	.banner-heading {
 		font-size: 500%;
 	}
+
+	.pad-main {
+		padding-left: 20%;
+		padding-right: 20%;
+	}
 }
 
 
@@ -1036,6 +1057,15 @@ color: #8bafc6;
 	.banner-heading {
 		font-size: 600%;
 	}
+	.info-content {
+		padding-left: 30%;
+		padding-right: 30%;
+
+	}
+
+	.center-intro li {
+		text-align: center;
+	}	
 }
 
 @media only screen and (min-width: 72em) {
@@ -1043,6 +1073,10 @@ color: #8bafc6;
 	.tab-1 {
 		left: 16%;
 	}
+	.pad-main {
+	padding-left: 23%;
+	padding-right: 23%;
+}
 }
 
 @media only screen and (min-width: 80em) {
@@ -1062,6 +1096,14 @@ color: #8bafc6;
 	#lightbox-two:target {
 	/*width: 50%;*/
 	}
+
+	.bg-8 {
+		background-size: 36em;
+	}
+
+	.tab-1 {
+		left: 17%;
+	}
 }
 
 @media only screen and (min-width: 90em) {
@@ -1077,6 +1119,23 @@ color: #8bafc6;
 		.tab-bg {
 		top: 92.5%;
 	}
+
+	.center-intro {
+		width: 40%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.intro {
+		text-align: center;
+	}
+
+	.tab-1 {
+		left: 18%;
+	}
+	.footer {
+		padding-bottom: 0;
+	}
+
 }
 
 @media only screen and (min-width: 100em) {
@@ -1096,12 +1155,27 @@ color: #8bafc6;
 	.tab-bg {
 		top: 93%;
 	}
+
+	.tab-1 {
+		left: 19%;
+	}
+	.intro:first-child{
+		font-size: 300%;
+	}
 }
 
 @media only screen and (min-width: 110em) {
 	.tab-bg {
 		top: 94.5%;
 	}
+
+	.tab-1 {
+		left: 20%;
+	}
+	.banner-heading {
+		font-size: 900%;
+	}
+
 }
 
 
@@ -1113,6 +1187,20 @@ color: #8bafc6;
 
 	.parallax-group {
 		height: 48em; 
+	}
+
+	.center-intro {
+		width: 30%;
+	}
+
+	.banner-heading {
+		font-size: 1000%;
+	}
+
+	.info-content {
+		padding-left: 35%;
+		padding-right: 35%;
+
 	}
 }
 

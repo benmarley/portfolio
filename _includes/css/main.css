@@ -85,7 +85,7 @@ img {
 }
 
 #lightbox:target {
-	width: 60%;
+	width: 80%;
 }
 
 .x-image {
@@ -106,7 +106,7 @@ img {
 }
 
 #lightbox-two:target {	
-	width: 60%;
+	width: 80%;
 }
 
 #lightbox-three {
@@ -123,7 +123,7 @@ img {
 }
 
 #lightbox-three:target {
-	width: 60%;
+	width: 80%;
 }
 
 #lightbox-four {
@@ -140,7 +140,7 @@ img {
 }
 
 #lightbox-four:target {
-	width: 60%;
+	width: 80%;
 }
 
 #lightbox-five {	
@@ -157,7 +157,7 @@ img {
 }
 
 #lightbox-five:target {
-	width: 60%;
+	width: 80%;
 }
 
 .parallax-banner {

@@ -558,13 +558,13 @@ header {
 
 .nav-bg-large-none {
 	text-align: center;
-	background-color: #ccc;
+	background-color: #b75955;
 	padding-top: .5em;
 	padding-bottom: .5em;
 }
 
 .nav-bg-large-none a {
-	color: black;
+	color: #FFFDF3;
 	text-decoration: none;
 	padding-top: 1em;
 	padding-bottom: 1em;

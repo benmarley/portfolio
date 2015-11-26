@@ -165,6 +165,14 @@ img {
 	transform-style: preserve-3d;
 }
 
+.large-b {
+	display: none;
+}
+
+.small-b {
+	display: block;
+}
+
 .image-back-parallax {
 	-webkit-transform: translateZ(-.5px) scale(1.5);
 	transform: translateZ(-.5px) scale(1.5);
@@ -196,8 +204,6 @@ img {
 }
 
 .banner img {
-	display: block;
-	position: relative;
 	z-index: 10;
 }
 
@@ -980,9 +986,7 @@ header {
 	}
 
 	.banner img {
-		display: block;
-		position: relative;
-		top: -2em;
+		
 	}
 
 	.banner-heading {
@@ -1000,6 +1004,15 @@ header {
 	.ben-2 {
 		width: 30%;
 		top: 0%;
+	}
+
+	.large-b {
+		display: block;
+		position: relative;
+		top: -2em;
+}
+	.small-b {
+		display: none;
 	}
 }
 

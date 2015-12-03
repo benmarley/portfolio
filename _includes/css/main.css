@@ -70,10 +70,15 @@ img {
 	border: 5px solid #b75955;
 }
 
+.light-bg {
+	background-size: cover;
+	text-align: center;
+}
+
 
 #lightbox {
 	position: absolute;
-	top: 2em;
+	top: 0;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -85,11 +90,22 @@ img {
 }
 
 #lightbox:target {
-	width: 80%;
+	width: 100%;
+	/*max-width: 40em ;*/
+	background-color: rgba(0,0,0, .6);
+}
+
+#lightbox .l-image {
+	width: 50%;
+	padding-top: 9em;
+	padding-bottom: 20em;
+	max-width: 40em;
 }
 
 .x-image {
-	width: 15%;
+	width: 40%;
+	display: block;
+	max-width: 20em;
 }
 
 #lightbox-two {
@@ -107,6 +123,7 @@ img {
 
 #lightbox-two:target {	
 	width: 80%;
+	max-width: 40em;
 }
 
 #lightbox-three {
@@ -124,6 +141,7 @@ img {
 
 #lightbox-three:target {
 	width: 80%;
+	max-width: 40em;
 }
 
 #lightbox-four {
@@ -141,6 +159,7 @@ img {
 
 #lightbox-four:target {
 	width: 80%;
+	max-width: 40em;
 }
 
 #lightbox-five {	
@@ -158,6 +177,7 @@ img {
 
 #lightbox-five:target {
 	width: 80%;
+	max-width: 40em;
 }
 
 .parallax-banner {
@@ -342,6 +362,7 @@ img {
 	margin: 0;	
 	-webkit-filter: brightness(30%);
 	filter: brightness(30%);
+
 }
 
 .expanding-divs {
@@ -380,6 +401,8 @@ img {
 	overflow: hidden;
 	background-size: 40em;
 	background-position-x: 35%; 
+
+	background-color: #ccc;
 }
 
 .bg-2 {
@@ -390,6 +413,8 @@ img {
 	background-size: 30em;
 	background-position-x: 30%; 
 	background-position-y: 60%; 
+
+	background-color: #ccc;
 }
 
 .bg-3 {
@@ -399,6 +424,8 @@ img {
   	overflow: hidden;
   	background-size: 45em;
 	background-position-x: 65%; 
+
+	background-color: #ccc;
 }
 
 .bg-4 {
@@ -408,6 +435,8 @@ img {
 	overflow: hidden;
 	background-position-x: 30%; 
 	background-position-y: 60%; 
+
+	background-color: #ccc;
 }
 
 .bg-5 {
@@ -417,6 +446,8 @@ img {
 	overflow: hidden;
 	background-position-x: 30%; 
 	background-position-y: 60%; 
+
+	background-color: #ccc;
 }
 
 .bg-6 {
@@ -425,6 +456,8 @@ img {
 	position: relative;
 	overflow: hidden;
 	background-size: 40em;
+
+	background-color: #ccc;
 }
 
 .bg-7 {
@@ -434,6 +467,8 @@ img {
 	overflow: hidden;
 	background-size: 40em;
 	background-position-x: 60%; 
+
+	background-color: #ccc;
 }
 
 .bg-8 {
@@ -442,12 +477,16 @@ img {
 	position: relative;
 	overflow: hidden;
 	background-size: 29em;
+
+	background-color: #ccc;
 }
 
 .expanding-divs {
 	display: none;
 	position: relative;
 	z-index: 1;
+
+
 }
 
 
@@ -592,25 +631,29 @@ header {
 .back-scale {
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
+
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
 }
 
 .back-scale:hover {
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
-}
 
-.portfolio-page-spacing {
 	-webkit-filter: brightness(30%);
 	filter: brightness(30%);
-	-webkit-transition: all 300ms linear;
-	transition: all 300ms linear;
+}
+
+
+.portfolio-page-spacing {
 	overflow: hidden;
 	position: relative;
+
+	-webkit-filter: none;
+	filter: none;
 }
 
 .portfolio-page-spacing:hover {
-	-webkit-filter: none;
-	filter: none;
 	-webkit-transition: all 300ms linear;
 	transition: all 300ms linear;
 }
@@ -622,6 +665,7 @@ header {
 	font-size: 200%;
 	font-weight: 800;
 }
+
 
 .proj-images img {
 	display: block;
@@ -1110,6 +1154,10 @@ header {
 	padding-left: 23%;
 	padding-right: 23%;
 }
+
+	.parallax-header {
+		width: 80%;
+	}
 }
 
 @media only screen and (min-width: 80em) {

@@ -80,7 +80,7 @@ img {
 .light-bg {
 	background-size: cover;
 	text-align: center;
-	height: 120vh
+	height: 180vh;
 }
 
 
@@ -146,7 +146,7 @@ img {
 
 #lightbox-two {
 	position: absolute;
-	top: -8%;
+	top: -100px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -160,7 +160,7 @@ img {
 
 #lightbox-three {
 	position: absolute;
-	top: -8%;
+	top: -100px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -174,7 +174,7 @@ img {
 
 #lightbox-four {
 	position: absolute;
-	top: 2em;
+	top: -100px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -187,7 +187,7 @@ img {
 
 #lightbox-five {	
 	position: absolute;
-	top: 2em;
+	top: -100px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);

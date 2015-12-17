@@ -1,1 +1,1 @@
-var $bgBlack = $('#')
+$('.footer').localScroll();

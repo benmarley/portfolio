@@ -121,6 +121,13 @@ img {
 	background-color: rgba(0,0,0, .8);
 }
 
+#lightbox-five:target {
+	width: 100%;
+	/*max-width: 40em ;*/
+	background-color: rgba(0,0,0, .8);
+}
+
+
 .l-image {
 	width: 100%;
 	padding-top: 9em;
@@ -189,11 +196,6 @@ img {
 	-webkit-transition: all 400ms linear;
 	transition: all 400ms linear;
 	z-index: 1;
-}
-
-#lightbox-five:target {
-	width: 80%;
-	max-width: 40em;
 }
 
 .parallax-banner {

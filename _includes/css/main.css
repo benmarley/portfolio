@@ -80,9 +80,8 @@ img {
 .light-bg {
 	background-size: cover;
 	text-align: center;
-	height: 180vh;
+	height: 186vh;
 }
-
 
 #lightbox {
 	position: absolute;
@@ -805,6 +804,7 @@ header {
 
 .back-to-top {
 	width: 10%;
+	text-align: center;
 }
 
 .back-to-top {
@@ -1077,6 +1077,9 @@ header {
 	.small-b {
 		display: none;
 	}
+	.light-bg {
+		height: 207vh;
+	}
 }
 
 @media only screen and (min-width: 46em) {
@@ -1121,6 +1124,9 @@ header {
 	.ben-2 {
 		top: -1%;
 	}
+	.light-bg {
+		height: 200vh;
+	}
 }
 
 @media only screen and (min-width: 60em) {
@@ -1162,6 +1168,10 @@ header {
 		width: 20%;
 		top: 0%;
 	}
+
+	.light-bg {
+		height:241vh;
+	}
 }
 
 @media only screen and (min-width: 72em) {
@@ -1176,6 +1186,9 @@ header {
 
 	.parallax-header {
 		width: 80%;
+	}
+	.light-bg {
+		height: 250vh;
 	}
 }
 
@@ -1203,6 +1216,9 @@ header {
 
 	.tab-1 {
 		left: 17%;
+	}
+	.light-bg {
+		height: 270vh;
 	}
 }
 
@@ -1237,6 +1253,9 @@ header {
 	.ben-2 {
 		width: 20%;
 		top: -1%;
+	}
+	.light-bg {
+		height: 290vh;
 	}
 }
 

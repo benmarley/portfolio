@@ -1,1 +1,2 @@
-$('.footer').localScroll();
+var $scroll = $('.scroll');
+$('.scroll').localScroll();

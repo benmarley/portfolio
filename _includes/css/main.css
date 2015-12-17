@@ -80,76 +80,90 @@ img {
 .light-bg {
 	background-size: cover;
 	text-align: center;
+	height: 120vh
 }
 
 
 #lightbox {
 	position: absolute;
-	top: 0;
+	top: -100px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	width: 0;
 	overflow: hidden;
-	-webkit-transition: all 400ms linear;
-	transition: all 400ms linear;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
 	z-index: 1;
 }
 
 #lightbox:target {
 	width: 100%;
 	/*max-width: 40em ;*/
-	background-color: rgba(0,0,0, .6);
+	background-color: rgba(0,0,0, .8);
 }
 
-#lightbox .l-image {
-	width: 50%;
+#lightbox-two:target {
+	width: 100%;
+	/*max-width: 40em ;*/
+	background-color: rgba(0,0,0, .8);
+}
+
+#lightbox-three:target {
+	width: 100%;
+	/*max-width: 40em ;*/
+	background-color: rgba(0,0,0, .8);
+}
+
+#lightbox-four:target {
+	width: 100%;
+	/*max-width: 40em ;*/
+	background-color: rgba(0,0,0, .8);
+}
+
+.l-image {
+	width: 100%;
 	padding-top: 9em;
 	padding-bottom: 20em;
 	max-width: 40em;
 }
 
+
 .x-image {
 	width: 40%;
 	display: block;
 	max-width: 20em;
+	position: relative;
+	top: 1em;
 }
 
 #lightbox-two {
 	position: absolute;
-	top: 2em;
+	top: -8%;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	width: 0;
 	overflow: hidden;
-	-webkit-transition: all 400ms linear;
-	transition: all 400ms linear;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
 	z-index: 1;
 }
 
-#lightbox-two:target {	
-	width: 80%;
-	max-width: 40em;
-}
 
 #lightbox-three {
 	position: absolute;
-	top: 2em;
+	top: -8%;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	width: 0;
 	overflow: hidden;
-	-webkit-transition: all 400ms linear;
-	transition: all 400ms linear;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
 	z-index: 1;
 }
 
-#lightbox-three:target {
-	width: 80%;
-	max-width: 40em;
-}
 
 #lightbox-four {
 	position: absolute;
@@ -159,14 +173,9 @@ img {
 	transform: translateX(-50%);
 	width: 0;
 	overflow: hidden;
-	-webkit-transition: all 400ms linear;
-	transition: all 400ms linear;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
 	z-index: 1;
-}
-
-#lightbox-four:target {
-	width: 80%;
-	max-width: 40em;
 }
 
 #lightbox-five {	

@@ -1,5 +1,5 @@
 $('.scroll').localScroll({
-	target: 'body'
+	target: 'scroll'
 });
 
 // $scroll.on('click', function () {

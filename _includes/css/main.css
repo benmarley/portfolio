@@ -85,7 +85,7 @@ img {
 
 #lightbox {
 	position: absolute;
-	top: -100px;
+	top: -130px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -145,7 +145,7 @@ img {
 
 #lightbox-two {
 	position: absolute;
-	top: -100px;
+	top: -130px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -159,7 +159,7 @@ img {
 
 #lightbox-three {
 	position: absolute;
-	top: -100px;
+	top: -130px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -173,7 +173,7 @@ img {
 
 #lightbox-four {
 	position: absolute;
-	top: -100px;
+	top: -130px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -186,7 +186,7 @@ img {
 
 #lightbox-five {	
 	position: absolute;
-	top: -100px;
+	top: -130px;
 	left: 50%;
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
@@ -990,6 +990,25 @@ header {
 		width: 25%;
 		top: 0%;
 	}
+	#lightbox {
+	top: -100px;
+	}
+
+	#lightbox-two {
+		top: -100px;
+	}
+
+	#lightbox-three {
+		top: -100px;
+	}
+
+	#lightbox-four {
+		top: -100px;
+	}
+
+	#lightbox-five {
+		top: -100px;
+	}
 }
 
 @media only screen and (min-width: 38em) {
@@ -1108,6 +1127,7 @@ header {
 	.light-bg {
 		height: 207vh;
 	}
+	
 }
 
 @media only screen and (min-width: 46em) {

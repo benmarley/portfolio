@@ -3,12 +3,12 @@ layout: default
 title: Ben Marley – Designer - Ottawa, Canada
 ---
 	
-<body>
+<body class="body">
 	<div class="banner" id="banner" role="banner">
 		<h1 class="banner-heading yotta">BEN MARLEY<br>DESIGN</h1>
 		<img class="small-b" src="images/banner-image-red-s-600.jpg" alt="banner image">
 		<img class="large-b" src="images/banner-image-largescale.jpg" alt="banner image">
-		
+
 		<div class="tab-bg small-none-nav">
 			<div class="center-tabs" id="nav" role="navigation">
 				<a href="{{site.baseurl}}/graphicdesign.html"><div class="tab tab-1">Graphic Design </div></a>
@@ -17,11 +17,15 @@ title: Ben Marley – Designer - Ottawa, Canada
 			</div>
 		</div>
 
+
+
 		<div class="grid navigation-list">
 			<a href="{{site.baseurl}}/graphicdesign.html" class="unit unit-xs-1-3 unit-s-1-3">Graphic Design</a>
 			<a href="{{site.baseurl}}/motion.html" class="border-nav unit unit-xs-1-3 unit-s-1-3">Motion Graphics</a>
 			<a href="{{site.baseurl}}/illustration.html" class="unit unit-xs-1-3 unit-s-1-3">Illustration</a>
 		</div>
+
+		<a  href="mailto:hey@benmarleydesign.ca" class="contact">hey@benmarleydesign.ca</a>
 	</div>
 
 	<div class="intro-spacing">
@@ -40,7 +44,7 @@ title: Ben Marley – Designer - Ottawa, Canada
 		<img class="parallax-header" src="images/items-image.svg">
 	</div>
 
-	<main role="main">
+	<main role="main" class="main">
 		
 		<h3 class="items-title-small">WORK</h3>
 		<div class="small-images-index grid">
@@ -153,12 +157,12 @@ title: Ben Marley – Designer - Ottawa, Canada
 			</div>
 		</div>
 
-		<a href="#banner" class="back-to-top grey scroll">
-				<p>Back To Top</p>
-			</a>
+		<a href="{{site.baseurl}}/#banner" class="back-to-top grey scroll">
+			<p>Back To Top</p>
+		</a>
 		
 		<footer class="footer" id="footer">
-			<a  href="mailto:hey@benmarleydesign.ca" class="contact">Contact Me:<br> hey@benmarleydesign.ca</a>
+			
 			<p class="copyright" role="contentinfo">©Copyright • Ben Marley 2015</p>	
 		</footer>
 	</main>
@@ -166,7 +170,7 @@ title: Ben Marley – Designer - Ottawa, Canada
 	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-localScroll/1.4.0/jquery.localScroll.min.js"></script>
-	<script src="js/main.js"></script>
+	<script src="{{site.baseurl}}js/main.js"></script>
 
 	
 </body>

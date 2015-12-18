@@ -538,9 +538,10 @@ img {
 	text-align: right;
 	padding-right: 1em;
 	position: absolute;
-	top: 2%;
-	right: 0%;
+	bottom: 18%;
+	left: 1%;
 	text-decoration: none;
+	z-index: 60;
 }
 
 .contact a {
@@ -700,6 +701,10 @@ header {
 	transition: all 300ms linear;
 }
 
+.scroll {
+	transition: all 400ms linear;
+}
+
 #grid-contain:hover #box-title {
 	top: 40%;
 	-webkit-transition: all 300ms linear;
@@ -802,15 +807,14 @@ header {
 	box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
 }
 
-.back-to-top {
-	width: 10%;
-	text-align: center;
-}
 
 .back-to-top {
 	text-decoration: none;
 	font-weight: 600;
 	font-size: 100%;
+
+	width: 10%;
+	text-align: center;
 }
 
 .type-graphic{
@@ -941,6 +945,30 @@ header {
 	padding-left: 10%;
 	padding-top: 2em;
 	padding-right: 10%;
+}
+.computer-404 {
+	width: 60%;
+	text-align: center;
+	display: block;
+	position: relative;
+	left: 4%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	
+}
+
+.info-404 {
+	color: #b75955;
+	position: relative;
+	text-align: center;
+
+
+}
+.404-content{
+	text-align: center;
+	position: relative;
 }
 
 @media only screen and (min-width: 25em) {
@@ -1171,6 +1199,9 @@ header {
 
 	.light-bg {
 		height:241vh;
+	}
+	.contact{
+		bottom: 14%;
 	}
 }
 

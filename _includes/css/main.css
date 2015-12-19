@@ -720,7 +720,7 @@ header {
 }
 
 .grid-heading-title {
-	font-color: white;
+	color: white;
 }
 
 .p-images {
@@ -960,11 +960,6 @@ header {
 	position: relative;
 	text-align: center;
 	top: 1em;
-}
-
-.404-content{
-	text-align: center;
-	position: relative;
 }
 
 @media only screen and (min-width: 25em) {

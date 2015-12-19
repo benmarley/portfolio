@@ -502,10 +502,7 @@ img {
 	display: none;
 	position: relative;
 	z-index: 1;
-
-
 }
-
 
 .center-tabs a {
 	color:black;	
@@ -663,7 +660,6 @@ header {
 	filter: brightness(30%);
 }
 
-
 .portfolio-page-spacing {
 	overflow: hidden;
 	position: relative;
@@ -685,7 +681,6 @@ header {
 	font-weight: 800;
 }
 
-
 .proj-images img {
 	display: block;
 }
@@ -702,6 +697,7 @@ header {
 }
 
 .scroll {
+	-webkit-transition: all 400ms linear;
 	transition: all 400ms linear;
 }
 
@@ -725,6 +721,7 @@ header {
 .grid-heading-title {
 	font-color: white;
 }
+
 .p-images {
 	display: block;
 }
@@ -806,7 +803,6 @@ header {
 	z-index: 6;
 	box-shadow: 0px 0px 10px 4px rgba(0, 0, 0, 0.2);
 }
-
 
 .back-to-top {
 	text-decoration: none;
@@ -946,6 +942,7 @@ header {
 	padding-top: 2em;
 	padding-right: 10%;
 }
+
 .computer-404 {
 	width: 60%;
 	text-align: center;
@@ -955,17 +952,15 @@ header {
 
 	margin-left: auto;
 	margin-right: auto;
-
-	
 }
 
 .info-404 {
 	color: #b75955;
 	position: relative;
 	text-align: center;
-
-
+	top: 1em;
 }
+
 .404-content{
 	text-align: center;
 	position: relative;
@@ -991,7 +986,7 @@ header {
 		top: 0%;
 	}
 	#lightbox {
-	top: -100px;
+		top: -100px;
 	}
 
 	#lightbox-two {
@@ -1016,7 +1011,6 @@ header {
 	.info-content {
 		padding-left: 20%;
 		padding-right: 20%;
-
 	}
 
 	.center-intro {
@@ -1024,6 +1018,7 @@ header {
 	color: #405d77;
 	padding-left: 2em;
 	}
+
 	.small-images-index {
 		display: none;	
 	}
@@ -1035,6 +1030,7 @@ header {
 	.items-title-small {
 		display: none;
 	}
+
 	.expanding-divs {
 		display: block;
 	}
@@ -1095,10 +1091,6 @@ header {
 		display: block;
 	}
 
-	.banner img {
-		
-	}
-
 	.banner-heading {
 		font-size: 400%;
 	}
@@ -1120,14 +1112,15 @@ header {
 		display: block;
 		position: relative;
 		top: -2em;
-}
+	}
+
 	.small-b {
 		display: none;
 	}
+
 	.light-bg {
 		height: 207vh;
-	}
-	
+	}	
 }
 
 @media only screen and (min-width: 46em) {
@@ -1172,6 +1165,7 @@ header {
 	.ben-2 {
 		top: -1%;
 	}
+
 	.light-bg {
 		height: 200vh;
 	}
@@ -1220,6 +1214,7 @@ header {
 	.light-bg {
 		height:241vh;
 	}
+
 	.contact{
 		bottom: 14%;
 	}
@@ -1230,14 +1225,16 @@ header {
 	.tab-1 {
 		left: 16%;
 	}
+
 	.pad-main {
 	padding-left: 23%;
 	padding-right: 23%;
-}
+	}
 
 	.parallax-header {
 		width: 80%;
 	}
+
 	.light-bg {
 		height: 250vh;
 	}
@@ -1354,8 +1351,11 @@ header {
 	.banner-heading {
 		font-size: 900%;
 	}
-}
 
+	.l-image {
+		max-width: 55em;
+	}
+}
 
 @media only screen and (min-width: 125em) {
 	
@@ -1378,7 +1378,6 @@ header {
 	.info-content {
 		padding-left: 35%;
 		padding-right: 35%;
-
 	}
 
 	.ben-2 {
@@ -1390,6 +1389,10 @@ header {
 @media only screen and (min-width: 135em) {
 	.parallax-group {
 		height: 54em; 
+	}
+
+	.l-image {
+		max-width: 65em;
 	}
 }
 

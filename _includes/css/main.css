@@ -417,7 +417,7 @@ img {
  	position: relative;
 	overflow: hidden;
 	background-size: 40em;
-	background-position-x: 35%; 
+	background-position: 0% 35%; 
 
 	background-color: #ccc;
 }
@@ -428,8 +428,8 @@ img {
 	position: relative;
 	overflow: hidden;
 	background-size: 30em;
-	background-position-x: 30%; 
-	background-position-y: 60%; 
+ 
+	background-position: 30% 60%; 
 
 	background-color: #ccc;
 }
@@ -440,7 +440,7 @@ img {
   	position: relative;
   	overflow: hidden;
   	background-size: 45em;
-	background-position-x: 65%; 
+	background-position: 65% 0%; 
 
 	background-color: #ccc;
 }
@@ -450,8 +450,8 @@ img {
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
-	background-position-x: 30%; 
-	background-position-y: 60%; 
+ 
+	background-position: 30% 60%; 
 
 	background-color: #ccc;
 }
@@ -461,8 +461,9 @@ img {
 	background-repeat: no-repeat;
 	position: relative;
 	overflow: hidden;
-	background-position-x: 30%; 
-	background-position-y: 60%; 
+ 
+	background-position: 30% 60%;
+	background-size: 35em;
 
 	background-color: #ccc;
 }
@@ -483,7 +484,7 @@ img {
 	position: relative;
 	overflow: hidden;
 	background-size: 40em;
-	background-position-x: 60%; 
+	background-position: 60% 0%; 
 
 	background-color: #ccc;
 }

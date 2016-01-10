@@ -667,6 +667,7 @@ header {
 
 	-webkit-filter: none;
 	filter: none;
+	padding: .1em;
 }
 
 .portfolio-page-spacing:hover {
